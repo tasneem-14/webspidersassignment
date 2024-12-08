@@ -1,0 +1,22 @@
+{
+    "name": "task-manager",
+    "version": "1.0.0",
+    "description": "A simple task manager API",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js"
+    },
+    "dependencies": {
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "joi": "^17.4.2",
+        "mongoose": "^6.13.5"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "keywords": [],
+    "author": "Abdul Muqueeth",
+    "license": "ISC"
+}
